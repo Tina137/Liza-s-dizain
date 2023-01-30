@@ -14,12 +14,27 @@
   }
 }
 
-@media (max-width: 297px) {
+@media (max-width: 1170px) {
   .Cross__flex {
     display: block;
   }
   .Cross__img {
     text-align: center;
     margin-bottom: 50px;
+  }
+  .our-customers__main-flex {
+    display: block;
+    text-align: center;
+  }
+  .our-customers__buttons {
+    display: block;
+  }
+  .our-customers__button {
+    margin: auto;
+    display: inline-block;
+  }
+  .our-customers__new-button {
+    margin: auto;
+    margin-bottom: 80px;
   }
 }
