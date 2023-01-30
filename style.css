@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.wrapper1 {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+.header__buttons {
+  width: 100%;
+  max-width: 341px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__button {
+  text-decoration: none;
+  color: white;
+  background-color: #24232c;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 19px 30px;
+  border-radius: 30px;
+}
+.header__button--number {
+  padding: 0;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 22px;
+}
+.header__content {
+  text-align: center;
+  position: relative;
+}
+.header__content--grid {
+  width: 100%;
+  height: 100%;
+  background-image: url(header-section/g5047.svg);
+  border-radius: 400px;
+  padding-top: 160px;
+}
+.header__title {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 110px;
+  color: black;
+}
+.header__title--pink {
+  color: #dd5954;
+  position: relative;
+}
+.header__title--pink::after {
+  content: "";
+  display: block;
+  width: 248px;
+  height: 5px;
+  background-color: #f5cdcb;
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+.header__text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  color: #56606d;
+  margin-bottom: 30px;
+}
+.header__content-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  background-color: #dd5954;
+  padding: 19px 32px;
+  border-radius: 30px;
+}
+.header__button-text {
+  margin-right: 6px;
+}
+.header__icon {
+  margin-top: 130px;
+  margin-left: 1020px;
+}
+.header__over-text--1 {
+  color: #657482;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 52px;
+  margin-top: 100px;
+}
+.header__over-text--2 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 52px;
+}
+.wrapper1::after {
+  content: " ";
+  display: block;
+  width: 412.5px;
+  height: 689.5px;
+  background-image: url(header-section/Ellipse\ 4.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+
+  left: 800px;
+  z-index: -1;
+}
+.header__content::after {
+  content: " ";
+  display: block;
+  width: 252.5px;
+  height: 266px;
+  background-image: url(header-section/Ellipse\ 5.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 100px;
+  top: -5px;
+  z-index: -1;
+}
+
+/*sction-Cross*/
+
+.wrapper2 {
+  width: 1200px;
+  margin: auto;
+}
+.Cross__flex {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+.Cross__content {
+  margin-left: 124px;
+}
+.Cross__text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #727986;
+  margin-top: 30px;
+}
+.Cross__title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+.Cross__text-about {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #727986;
+  margin-bottom: 40px;
+}
+.Cross__li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.Cross__li-content {
+  margin-left: 20px;
+}
+.Cross__li-title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.Cross__li-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #727986;
+}
+
+/*our-customers-section*/
+
+.our-customers__main-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+}
+.our-customers__buttons {
+  display: flex;
+}
+.our-customers__button {
+  text-decoration: none;
+  display: block;
+  background-color: #dd5954;
+  color: #ffffff;
+  width: 112px;
+  text-align: center;
+  padding: 14px 0;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.our-customers__button--pink {
+  background-color: #dd595426;
+  color: #dd5954;
+}
+.our-customers__title--one {
+  color: #657482;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 52px;
+  margin-top: 30px;
+}
+.our-customers__title--two {
+  color: #000000;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 52px;
+  margin-bottom: 30px;
+}
+.our-customers__text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #727986;
+  margin-bottom: 20px;
+}
+.our-customers__new-button {
+  text-decoration: none;
+  display: block;
+  color: #dd5954;
+  fill: #dd5954;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100px;
+}
