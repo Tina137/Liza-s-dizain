@@ -80,6 +80,28 @@
   .masher__background {
     font-size: 100px;
   }
+  .footer__main-flex {
+    flex-direction: column;
+    gap: 0;
+  }
+  .footer__logo {
+    width: 171px;
+    margin: auto;
+    margin-bottom: 0;
+  }
+  .footer__title {
+    margin-top: 10px;
+  }
+  .footer__button {
+    padding: 14px 0;
+    width: 100%;
+  }
+  .footer__form {
+    flex-direction: column;
+    gap: 15px;
+    margin: auto;
+    max-width: 225px;
+  }
 }
 @media (max-width: 817px) {
   .header__icon {
