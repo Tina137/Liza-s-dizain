@@ -57,13 +57,22 @@
   .header__icon {
     margin-left: 800px;
   }
+  .masher__img {
+    max-width: 300px;
+  }
+}
+@media (max-width: 900px) {
+  .rewiews__comments {
+    flex-direction: column;
+    gap: 34px;
+  }
+  .rewiews__comment {
+    margin: auto;
+  }
 }
 @media (max-width: 865px) {
   .header__icon {
     margin-left: 700px;
-  }
-  .masher__img {
-    max-width: 150px;
   }
   .Cross__content {
     margin-left: 0;
@@ -91,9 +100,6 @@
 @media (max-width: 705px) {
   .masher__background {
     top: 4080px;
-  }
-  .masher__img {
-    max-width: 300px;
   }
 }
 @media (max-width: 655px) {
@@ -129,6 +135,15 @@
 @media (max-width: 505px) {
   .Cross__div-img {
     max-width: 400px;
+  }
+  .masher__content {
+    text-align: center;
+  }
+  .masher__button {
+    margin: auto;
+  }
+  .masher__content {
+    padding-top: 0;
   }
 }
 @media (max-width: 460px) {
@@ -171,13 +186,17 @@
   }
 }
 @media (max-width: 380px) {
-  .masher__content {
-    text-align: center;
-  }
-  .masher__button {
-    margin: auto;
-  }
   .Cross__li {
+    display: block;
+  }
+  .header__logo {
+    margin-bottom: 40px;
+  }
+  .header__buttons {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .rewiews__comment {
     display: block;
   }
 }
