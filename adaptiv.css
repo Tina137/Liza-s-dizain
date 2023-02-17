@@ -173,6 +173,9 @@
   .our-customers__title--two {
     font-size: 40px;
   }
+  .start__button {
+    margin-bottom: 0;
+  }
 }
 @media (max-width: 390px) {
   .header__content::after {

@@ -372,3 +372,38 @@
   line-height: 28px;
   color: #768498;
 }
+
+/* start-section */
+
+.start__title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.start__button {
+  text-decoration: none;
+  background-color: #dd5954;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  display: block;
+  width: 249px;
+  padding: 19px 0;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.start__icon {
+  margin-left: 6px;
+}
+.start__background-img {
+  max-width: 914px;
+  height: 420px;
+  margin: auto;
+  background-image: url(start-section/image\ 4.svg);
+}
