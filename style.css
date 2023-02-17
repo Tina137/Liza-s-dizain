@@ -3,7 +3,6 @@
   padding: 0;
   font-family: "Poppins";
 }
-
 .wrapper1 {
   max-width: 1200px;
   margin: auto;
@@ -412,9 +411,8 @@
 }
 .start__background-img {
   max-width: 914px;
-  height: 420px;
+  display: block;
   margin: auto;
-  background-image: url(start-section/image\ 4.svg);
 }
 
 /* footer-section */
